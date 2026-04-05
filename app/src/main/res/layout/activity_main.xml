@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#0F1729">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AI PROTECTION"
+        android:textSize="32sp"
+        android:textColor="#00E5FF"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Защищайся от мошенников с помощью ИИ"
+        android:textSize="16sp"
+        android:textColor="#8895A4"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="ПОДКЛЮЧИТЬ"
+        android:textSize="18sp"
+        android:backgroundTint="#2A3A5C"
+        android:enabled="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ВЫБЕРИ МЕССЕНДЖЕР"
+        android:textColor="#00E5FF"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnTelegram"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="TELEGRAM"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnVk"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="VK" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• КАК ПОДКЛЮЧИТЬ?"
+        android:textColor="#00E5FF"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1) Включи уведомления\n2) Выбери мессенджер\n3) Нажми подключить"
+        android:textColor="#8895A4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• ЧТО МЫ ГАРАНТИРУЕМ?"
+        android:textColor="#00E5FF"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="✓ Безопасность\n✓ Защита данных\n✓ Шифрование"
+        android:textColor="#8895A4" />
+
+</LinearLayout>
