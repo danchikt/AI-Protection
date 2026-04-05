@@ -1,7 +1,6 @@
 package com.aiprotection
 
 import android.os.Bundle
-import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
@@ -9,10 +8,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        val btnConnect = findViewById<Button>(R.id.btnConnect)
-        btnConnect.setOnClickListener {
-            Toast.makeText(this, "AI Protection активен!", Toast.LENGTH_SHORT).show()
-        }
+        
+        Toast.makeText(this, "AI Protection запущен!", Toast.LENGTH_LONG).show()
     }
 }
