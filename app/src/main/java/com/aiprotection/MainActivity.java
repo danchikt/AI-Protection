@@ -1,5 +1,6 @@
 package com.aiprotection;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.widget.Button;
@@ -119,4 +120,4 @@ public class MainActivity extends AppCompatActivity {
         
         setContentView(layout);
     }
-    }
+}
